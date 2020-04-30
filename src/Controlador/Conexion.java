@@ -56,10 +56,11 @@ public class Conexion {
          }
       }
       catch(SQLException e){
-       JOptionPane.showMessageDialog(null,e.getMessage(),"Error" ,  JOptionPane.ERROR_MESSAGE);
+       JOptionPane.showMessageDialog(null,e.getMessage(),"Error no existe Base de Datos " ,  JOptionPane.ERROR_MESSAGE);
+       System.exit(0);
       }
       catch(ClassNotFoundException e){
-         JOptionPane.showMessageDialog(null,e.getMessage(),"Error" ,  JOptionPane.ERROR_MESSAGE);
+         JOptionPane.showMessageDialog(null,e.getMessage(),"Error2" ,  JOptionPane.ERROR_MESSAGE);
       }
        return conn;
   }

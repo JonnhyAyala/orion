@@ -1,4 +1,4 @@
-Sat Apr 11 04:08:47 PDT 2020 Thread[AWT-EventQueue-0,6,main] Cleanup action starting
+Wed Apr 29 20:44:41 PDT 2020 Thread[main,5,main] Cleanup action starting
 java.sql.SQLException: Database '.\DB\Derby.DB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
@@ -16,24 +16,11 @@ java.sql.SQLException: Database '.\DB\Derby.DB' not found.
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
 	at Controlador.Conexion.AccederBD(Conexion.java:53)
 	at Vista.VPrincipal.<init>(VPrincipal.java:12)
-	at Vista.VPrincipal$4.run(VPrincipal.java:135)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+	at orion_proyect.Orion_Proyect.main(Orion_Proyect.java:10)
 Caused by: java.sql.SQLException: Database '.\DB\Derby.DB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
-	... 30 more
+	... 17 more
 ============= begin nested exception, level (1) ===========
 java.sql.SQLException: Database '.\DB\Derby.DB' not found.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
@@ -54,29 +41,6 @@ java.sql.SQLException: Database '.\DB\Derby.DB' not found.
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:251)
 	at Controlador.Conexion.AccederBD(Conexion.java:53)
 	at Vista.VPrincipal.<init>(VPrincipal.java:12)
-	at Vista.VPrincipal$4.run(VPrincipal.java:135)
-	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
-	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
-	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
-	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
-	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
-	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:740)
-	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
-	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
-	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
-	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+	at orion_proyect.Orion_Proyect.main(Orion_Proyect.java:10)
 ============= end nested exception, level (1) ===========
 Cleanup action completed
-----------------------------------------------------------------
-Sat Apr 11 04:08:54 PDT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.9.1.0 - (1344872): instance a816c00e-0171-68ed-776d-0000032b73b8 
-on database directory C:\Users\Dell\Google Drive\Netbeans\Orion_Proyect\DB\Derby.DB  with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@4e0e2f2a 
-Loaded from file:/C:/Users/Dell/Google%20Drive/Netbeans/Orion_Proyect/src/Librerias/derby.jar
-java.vendor=Oracle Corporation
-java.runtime.version=13.0.2+8
-user.dir=C:\Users\Dell\Google Drive\Netbeans\Orion_Proyect
-derby.system.home=null
-Database Class Loader started - derby.database.classpath=''
